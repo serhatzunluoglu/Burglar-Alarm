@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+}
+div{
+  text-align: center;
+  color: white;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}
+
+.alarm-icon{
+  width: 200px;
+  height: 200px;
+}
+body{
+background-color: blue;
+padding: 10px;
+}
+
+div{
+  background-color: red;
+}
