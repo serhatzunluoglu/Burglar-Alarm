@@ -5,9 +5,9 @@ import { getDatabase, ref, onValue } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCasq-_Dckwyc9x9a_DrvXUw8Pgyseyeiw",
+  apiKey: "your-api-key",
   authDomain: "thief-alarm-deneyap.firebaseapp.com",
-  databaseURL: "https://thief-alarm-deneyap-default-rtdb.europe-west1.firebasedatabase.app",
+  databaseURL: "your-database-url",
   projectId: "thief-alarm-deneyap",
   storageBucket: "thief-alarm-deneyap.appspot.com",
   messagingSenderId: "857900483077",
